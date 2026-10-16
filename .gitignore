@@ -1,0 +1,22 @@
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Données temporaires / checkpoints
+spark/data/checkpoint_*/
+spark/data/*.csv
+spark/data/*.json
+spark/data/*.parquet
+
+# Docker / logs
+*.log
+
+# Système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
